@@ -1,0 +1,19 @@
+.header {
+  width: 100%;
+  padding: 1rem 1.5rem; /*rem é a unidade responsiva com o navegador*/
+
+  background-color: var(--primary-color);
+
+  display: flex; /*deixa tela responsiva*/
+  flex-direction: row; /*alinha na horizontal, se column inverte justify-content e align-items*/
+  justify-content: flex-start; /*alinha no inicio da flex-box*/
+  align-items: center; /*alinha items no centro vertical*/
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 16), 0 3px 6px rgba(0, 0, 0, 23);
+}
+
+/* regra que define que a partir de 768px de largura, conteudo do header é centralizado*/
+@media screen and (max-width: 768px) {
+  .header {
+    justify-content: center;
+  }
+}

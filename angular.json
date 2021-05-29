@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "homebroker"
+  "defaultProject": "homebroker",
+  "cli": {
+    "analytics": "14867926-19ef-40d7-8d72-9eca41f6d543"
+  }
 }
